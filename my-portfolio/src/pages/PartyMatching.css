@@ -1,0 +1,17 @@
+/* src/pages/PartyMatching.css */
+.parties-container {
+    padding: 2rem;
+  }
+  
+  .parties-container form {
+    margin-bottom: 2rem;
+  }
+  
+  .parties-container ul {
+    list-style-type: none;
+  }
+  
+  .parties-container li {
+    margin-bottom: 1rem;
+  }
+  

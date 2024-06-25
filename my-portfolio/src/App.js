@@ -1,22 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import PortfolioItem from './components/PortfolioItem';
+import Items from './pages/Items';
+import Builds from './pages/Builds';
+import PartyMatching from './pages/PartyMatching';
+import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Header />
-      <PortfolioItem 
-        title="Project 1"
-        description="This is my first project."
-        image="path/to/image1.jpg"
-      />
-      <PortfolioItem 
-        title="Project 2"
-        description="This is my second project."
-        image="path/to/image2.jpg"
-      />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/items" element={<Items />} />
+        <Route path="/builds" element={<Builds />} />
+        <Route path="/party-matching" element={<PartyMatching />} />
+      </Routes>
+    </Router>
   );
 };
 

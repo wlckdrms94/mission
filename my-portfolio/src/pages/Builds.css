@@ -1,0 +1,17 @@
+/* src/pages/Builds.css */
+.builds-container {
+    padding: 2rem;
+  }
+  
+  .builds-container form {
+    margin-bottom: 2rem;
+  }
+  
+  .builds-container ul {
+    list-style-type: none;
+  }
+  
+  .builds-container li {
+    margin-bottom: 1rem;
+  }
+  
