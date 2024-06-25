@@ -1,6 +1,6 @@
 // src/pages/Items.js
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../axiosConfig';
 import './Items.css';
 
 const Items = () => {
