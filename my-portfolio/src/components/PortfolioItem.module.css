@@ -1,0 +1,22 @@
+.portfolioItem {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .portfolioImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolioTitle {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .portfolioDescription {
+    font-size: 16px;
+    color: #555;
+  }
+  
